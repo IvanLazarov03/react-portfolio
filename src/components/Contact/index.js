@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('service_126255f', 'template_asqleq7', refForm.current, {
+      .sendForm('outlook', 'template_asqleq7', refForm.current, {
         publicKey: 'HEKMbzJXj_9MuTufn',
       })
       .then(
