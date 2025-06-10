@@ -35,30 +35,20 @@ const About = () => {
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel
-            vulputate magna. Donec pretium felis rhoncus mi fermentum interdum.
-            Integer eleifend fermentum placerat. Etiam et nisl sem. Suspendisse
-            luctus ex iaculis tortor auctor viverra. In pellentesque nunc quis
-            mauris sagittis, in vestibulum metus pharetra. Aliquam egestas velit
-            mauris, ac facilisis mi lobortis nec. Suspendisse in lorem vitae sem
-            rhoncus pharetra.
+            Hi, I'm Ivan, a computer science student at the International Slavic
+            University. With a deep curiosity for technology, I thrive on
+            solving problems and building innovative digital experiences.
           </p>
           <p>
-            Quisque tempor lectus ipsum, at sodales nulla interdum et.
-            Vestibulum posuere ante sem, sed scelerisque dolor condimentum sed.
-            Pellentesque mattis rutrum ornare. Aenean fringilla, sapien ut
-            hendrerit luctus, diam mauris imperdiet sem, a ornare nisi odio ut
-            dolor. Nullam non volutpat sapien. Aenean ac lectus quis lacus
-            pretium porttitor sed ultrices libero. Maecenas vehicula, dui sed
-            iaculis euismod, mi justo viverra magna, non sodales nunc tortor sed
-            augue. Nulla sagittis
+            When I’m not diving into code and exploring the latest trends in web
+            development, you’ll find me on the football field. Playing the game
+            fuels my competitive spirit and teamwork skills—values I carry into
+            every project I work on.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel
-            vulputate magna. Donec pretium felis rhoncus mi fermentum interdum.
-            Integer eleifend fermentum placerat. Etiam et nisl sem. Suspendisse
-            luctus ex iaculis tortor auctor viverra. In pellentesque nunc quis
-            mauris sagittis,
+            Passionate about crafting seamless, visually engaging websites, I’m
+            always eager to learn, experiment, and push the boundaries of web
+            development. Let's build something amazing together!
           </p>
         </div>
 
