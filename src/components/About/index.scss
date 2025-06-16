@@ -3,9 +3,12 @@
   justify-content: space-between;
   align-items: center;
   .text-zone {
-    margin-left: 250px;
+    left: 10%;
     display: flex;
     flex-direction: column;
+    width: 40%;
+    top: 50%;
+    position: relative;
   }
 }
 
@@ -17,7 +20,7 @@
   height: 100%;
   width: 50%;
   perspective: 1000px;
-  margin: 0;
+  margin-bottom: 100px;
   padding: 0;
 }
 
@@ -95,6 +98,8 @@
     .text-zone {
       width: 90%;
       margin-left: 0;
+      margin-right: 20%;
+      margin-top: 60px;
     }
   }
 
