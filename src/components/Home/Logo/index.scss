@@ -1,18 +1,22 @@
+.logo-zone {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .hex {
-  top: 0;
-  right: 15%;
-  bottom: 0;
-  left: auto;
-  margin: auto;
-  position: absolute;
-  width: 445px;
-  height: 490px;
+  display: flex;
+  position: relative;
+  width: 40vw;
+  max-width: 445px;
+  max-height: 500px;
+  aspect-ratio: 1 / 1.1; // maintains hexagon proportions
   background: #ffd700;
   clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
 .hex-background {
-  position: absolute;
+  position: relative;
   top: 4px;
   left: 4px;
   width: calc(100% - 8px);
@@ -22,7 +26,7 @@
 }
 
 .hex-background img {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -32,4 +36,13 @@
 
 .hex-background img:hover {
   transform: scale(1.05);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .hex {
+    width: 70vw;
+    right: 0;
+    left: 0;
+  }
 }

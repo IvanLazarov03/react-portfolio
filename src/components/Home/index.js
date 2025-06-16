@@ -60,7 +60,9 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        <div className="logo-zone">
+          <Logo />
+        </div>
       </div>
       <Loader type="pacman" />
     </>
