@@ -1,12 +1,24 @@
+.about-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .text-zone {
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .stage-cube-cont {
-  width: 50%;
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
-  top: 0;
-  padding-top: 18%;
-  margin-left: 0;
-  position: absolute;
-  right: 0;
-  overflow: hidden;
+  width: 50%;
+  perspective: 1000px;
+  margin: 0;
+  padding: 0;
 }
 
 .cubespinner {
@@ -16,7 +28,6 @@
   animation-duration: 12s;
   transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
-  margin-left: calc(50% - 100px);
 
   div {
     position: absolute;
@@ -34,7 +45,6 @@
   .face1 {
     transform: translateZ(100px);
   }
-
   .face2 {
     transform: rotateY(90deg) translateZ(100px);
   }
@@ -52,7 +62,7 @@
   }
 }
 
-//definirame custom animacija
+// Cube animation
 @keyframes spincube {
   from,
   to {
@@ -65,13 +75,36 @@
     transform: rotateY(-90deg) rotateZ(90deg);
   }
   50% {
-    transform: rotateY(-180deg) rotateZ(90);
+    transform: rotateY(-180deg) rotateZ(90deg);
   }
-
   66% {
-    transform: rotateY(-270deg) rotateZ(90);
+    transform: rotateY(-270deg) rotateZ(90deg);
   }
   83% {
     transform: rotateX(90deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    .text-zone {
+      width: 90%;
+      margin-left: 0;
+    }
+  }
+
+  .stage-cube-cont {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.8); // optional: scale down cube for small screens
+    display: block;
+    margin-left: calc(50% - 50px);
+    margin-top: 30px;
   }
 }
